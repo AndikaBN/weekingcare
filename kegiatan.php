@@ -20,8 +20,9 @@
           class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navcol-1">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
-          <li class="nav-item"><a class="nav-link active" href="pricing.php">Kegiatan</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.php">Profil</a></li>
+          <li class="nav-item"><a class="nav-link active" href="kegiatan.php">Kegiatan</a></li>
           <li class="nav-item"><a class="nav-link" href="contacts.php">Pendaftaran</a></li>
         </ul>
         <a class="btn btn-primary shadow" role="button" href="">Help</a>
@@ -32,8 +33,7 @@
     <div class="container py-5">
       <div class="row mb-5">
         <div class="col-md-8 col-xl-6 text-center mx-auto">
-          <h2 class="fw-bold">Layanan Tersedia</h2>
-          <p class="text-muted">Berikut adalah layanan yang kami sediakan.</p>
+          <h2 class="fw-bold">Kegiatan kami</h2>
         </div>
       </div>
       <div
@@ -46,7 +46,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae distinctio alias vel voluptates accusamus,
               amet quasi quas quam minus omnis.</p>
             <h4>$45</h4>
-            <a href="book.html"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
+            <a href="book.php"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
           </div>
         </div>
 
@@ -58,33 +58,7 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quidem repellat earum accusantium
               expedita dolorem quam error, veritatis quae? Dolores!</p>
             <h4>$45</h4>
-            <a href="book.html"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
-          </div>
-        </div>
-
-
-        <div class="card bg-dark border-dark col mx-2 mb-4" style="width: 20rem; border-radius: 20px">
-          <img src="assets/img/brands/brandcare.jpg" style="height: 250px; border-radius: 20px 20px 0 0"
-            class="card-img-top" alt="..." />
-          <div class="card-body" style="border-radius: 0 0 5px 5px">
-            <h5 class="card-title">Card title</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quidem repellat earum accusantium
-              expedita dolorem quam error, veritatis quae? Dolores!</p>
-            <h4>$45</h4>
-            <a href="book.html"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
-          </div>
-        </div>
-
-
-        <div class="card bg-dark border-dark col mx-2 mb-4" style="width: 20rem; border-radius: 20px">
-          <img src="assets/img/brands/brandcare.jpg" style="height: 250px; border-radius: 20px 20px 0 0"
-            class="card-img-top" alt="..." />
-          <div class="card-body" style="border-radius: 0 0 5px 5px">
-            <h5 class="card-title">Card title</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quidem repellat earum accusantium
-              expedita dolorem quam error, veritatis quae? Dolores!</p>
-            <h4>$45</h4>
-            <a href="book.html"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
+            <a href="book.php"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
           </div>
         </div>
 
@@ -96,49 +70,33 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quidem repellat earum accusantium
               expedita dolorem quam error, veritatis quae? Dolores!</p>
             <h4>$45</h4>
-            <a href="book.html"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
+            <a href="book.php"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
           </div>
         </div>
 
-        <!-- <div class="col mx-2 mb-4">
-            <div class="card bg-dark border-dark">
-              <div class="card-body p-4">
-                <div class="d-flex justify-content-between">
-                  <div>
-                    <h3 class="fw-bold mb-0">Basic Bundle</h3>
-                    <p>Suscipit</p>
-                    <h4 class="display-4 fw-bold">$25</h4>
-                  </div>
-                </div>
-                <div>
-                  <ul class="list-unstyled">
-                    <li class="d-flex mb-2">
-                      <span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon bs-icon-xs me-2"
-                        ><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                          <path
-                            d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
-                          ></path></svg></span
-                      ><span>Lectus ut nibh quam, felis porttitor.</span>
-                    </li>
-                    <li class="d-flex mb-2">
-                      <span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon bs-icon-xs me-2"
-                        ><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                          <path
-                            d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
-                          ></path></svg></span
-                      ><span>Ante nec venenatis etiam lacinia.</span>
-                    </li>
-                    <li class="d-flex mb-2">
-                      <span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon bs-icon-xs me-2"
-                        ><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                          <path
-                            d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"
-                          ></path></svg></span
-                      ><span>Porta suscipit netus ad ac.</span>
-                    </li>
-                  </ul>
-                </div>
-                <a href="book.html"><button class="btn btn-primary d-block w-100" type="button">Button</button></a> -->
+        <div class="card bg-dark border-dark col mx-2 mb-4" style="width: 20rem; border-radius: 20px">
+          <img src="assets/img/brands/brandcare.jpg" style="height: 250px; border-radius: 20px 20px 0 0"
+            class="card-img-top" alt="..." />
+          <div class="card-body" style="border-radius: 0 0 5px 5px">
+            <h5 class="card-title">Card title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quidem repellat earum accusantium
+              expedita dolorem quam error, veritatis quae? Dolores!</p>
+            <h4>$45</h4>
+            <a href="book.php"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
+          </div>
+        </div>
+
+        <div class="card bg-dark border-dark col mx-2 mb-4" style="width: 20rem; border-radius: 20px">
+          <img src="assets/img/brands/brandcare.jpg" style="height: 250px; border-radius: 20px 20px 0 0"
+            class="card-img-top" alt="..." />
+          <div class="card-body" style="border-radius: 0 0 5px 5px">
+            <h5 class="card-title">Card title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quidem repellat earum accusantium
+              expedita dolorem quam error, veritatis quae? Dolores!</p>
+            <h4>$45</h4>
+            <a href="book.php"><button class="btn btn-primary d-block w-100" type="button">Button</button></a>
+          </div>
+        </div>
       </div>
     </div>
     </div>
@@ -176,14 +134,14 @@
                 <path
                   d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z">
                 </path>
-              </svg></span><span>WeekingCare</span>
+              </svg></span><span>SDN 1 Sembung</span>
           </div>
           <p class="text-muted">Sem eleifend donec molestie, integer quisque orci aliquam.</p>
         </div>
       </div>
       <hr />
       <div class="text-muted d-flex justify-content-between align-items-center pt-3">
-        <p class="mb-0">Copyright © 2023 WeekingCare</p>
+        <p class="mb-0">Copyright © 2023 SDN 1 Sembung</p>
         <ul class="list-inline mb-0">
           <li class="list-inline-item">
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16"

@@ -20,8 +20,9 @@
           class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navcol-1">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.php">Beranda</a></li>
-          <li class="nav-item"><a class="nav-link" href="pricing.php">Kegiatan</a></li>
+        <li class="nav-item"><a class="nav-link active" href="index.php">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.php">Profil</a></li>
+          <li class="nav-item"><a class="nav-link" href="kegiatan.php">Kegiatan</a></li>
           <li class="nav-item"><a class="nav-link" href="contacts.php">Pendaftaran</a></li>
         </ul>
         <a class="btn btn-primary shadow" role="button" href="">Help</a>
@@ -106,31 +107,31 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/assets/img/Galeri/1.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/1.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/2.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/2.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/3.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/3.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/4.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/4.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/5.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/5.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/6.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/6.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/7.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/7.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/8.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/8.jpg" class="d-block" style="width: 100%; height: 700px" />
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/Galeri/9.jpeg" class="d-block" style="width: 100%" />
+            <img src="/assets/img/Galeri/9.jpeg" class="d-block" style="width: 100%; height: 700px" />
           </div>
         </div>
 
@@ -149,124 +150,57 @@
     <div class="container py-5">
       <div class="mx-auto" style="max-width: 900px">
         <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center">
-          <div class="col mb-4">
-            <div class="card bg-primary-light">
-              <div class="card-body text-center px-4 py-5 px-md-5">
-                <h3 class="fw-bold text-primary card-text mb-2">LOVING PREGENANCY MASSAGE</h3>
-                <h5 class="card-title mb-3">
-                  Merupakan salah satu terapi holistic yang diawali dengan relaksasi pernapasan kemudian berdoa kepada
-                  Tuhan memohon kesejahteraan body, mind, dan spirit, dilanjutkan dengan memberikan terapi sentuh dengan
-                  memunculkan rasa
-                  peduli, mencintai dan penuh kasih pemijat pada ibu dengan tulus. Manfaat : mengurangi nyeri,
-                  mengurangi ketegangan, stress dan kecemasan, mengangkat suasana hati dan mood.
-                </h5>
-                <a href="pricing.html"><button class="btn btn-primary btn-sm" type="button">Learn more</button></a>
-              </div>
+        <div class="col mb-4">
+                <div class="card bg-success-light">
+                    <div class="card-body text-center px-4 py-5 px-md-5">
+                        <h3 class="fw-bold text-success card-text mb-2">EKSTRAKURIKULER KESENIAN</h3>
+                        <h5 class="card-title mb-3">
+                            Program ekstrakurikuler seni untuk melatih bakat dan kreativitas siswa. Kami menyediakan
+                            berbagai kegiatan seperti musik, tari, seni lukis, dan teater. Manfaat: mengembangkan
+                            keterampilan seni, meningkatkan kreativitas, dan memperluas pandangan seni siswa.
+                        </h5>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card bg-secondary-light">
-              <div class="card-body text-center px-4 py-5 px-md-5">
-                <h3 class="fw-bold text-secondary card-text mb-2">LOVING POSTNATAL MASSAGE DAN TREATMENT</h3>
-                <h5 class="card-title mb-3">
-                  Merupakan perawatan yang diberikan kepada ibu setelah melahirkan untuk membantu mengembalikan bentuk
-                  tubuhnya seperti sebelum hamil yang menggabungkan antara perawatan konvensional dan bahan alami dari
-                  alam. Manfaat :
-                  melancarkan peredaran darah, merangsang otot-otot, memberikan rasa nyaman, segar dan kehangatan.
-                  <br />
-                  <br />
-                </h5>
-                <button class="btn btn-secondary btn-sm" type="button">Learn more</button>
-              </div>
+            <div class="col mb-4">
+                <div class="card bg-warning-light">
+                    <div class="card-body text-center px-4 py-5 px-md-5">
+                        <h3 class="fw-bold text-warning card-text mb-2">KLUB OLAHRAGA</h3>
+                        <h5 class="card-title mb-3">
+                            Bergabunglah dengan klub olahraga kami yang menyediakan berbagai pilihan, termasuk sepak
+                            bola, basket, bulu tangkis, dan lainnya. Manfaat: meningkatkan kesehatan fisik, teamwork,
+                            dan semangat sportivitas.
+                        </h5>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card bg-info-light">
-              <div class="card-body text-center px-4 py-5 px-md-5">
-                <h3 class="fw-bold text-info card-text mb-2">LOVING PEDIATRIC MASSAGE THERAPHY</h3>
-                <h5 class="card-title mb-3">
-                  Merupakan suatu bentuk theraphy yang mengunnakan sentuhan kelembutan yang sistematik, yang difokuskan
-                  pada bagian tubuh tertentu, atau secara keseluruhan, dengan tujuan untuk penyembuhan dan relaksasi.
-                  Manfaat :
-                  meningkatkan sirkulasi darah, mengurangi nyeri dan sakit kepala, mengurangi umlah virus dan bakteri.
-                </h5>
-                <button class="btn btn-info btn-sm" type="button">Learn more</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col mb-4">
-            <div class="card" style="background-color: rgb(94, 12, 170)">
-              <div class="card-body text-center px-4 py-5 px-md-5">
-                <h3 class="fw-bold text-info card-text mb-2">LOVING BABY MASSAGE & SPA</h3>
-                <h5 class="card-title mb-3">
-                  Merupakan terapi sentuhan dan pijat pada bayi setelah kelahirannya. Manfaat : melancarkan sistem
-                  peredaran darah, menstimulasi saraf otak dan melatih respon saraf, meningkatkan daya tahan tubuh dan
-                  sistem imun.
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                </h5>
-                <button class="btn btn-info btn-sm" type="button">Learn more</button>
-              </div>
-            </div>
-          </div>
+            <div class="col mb-4">
+    <div class="card bg-warning-light">
+        <div class="card-body text-center px-4 py-5 px-md-5">
+            <h3 class="fw-bold text-warning card-text mb-2">KELAS KREATIF</h3>
+            <h5 class="card-title mb-3">
+                Kelas kreatif untuk mengembangkan kreativitas siswa melalui berbagai kegiatan seni dan kerajinan.
+                Siswa akan belajar melukis, membuat kerajinan tangan, dan mengembangkan keterampilan seni mereka.
+                Manfaat: meningkatkan imajinasi dan keterampilan seni kreatif.
+            </h5>
         </div>
-      </div>
     </div>
-  </section>
-  <section class="py-5 mt-5">
-    <div class="container py-5">
-      <div class="row mb-5">
-        <div class="col-md-8 col-xl-6 text-center mx-auto">
-          <h2 class="fw-bold text-success mb-2">Testimonials</h2>
-          <h2 class="fw-bold"><strong>What People Say About us</strong></h2>
-          <p class="text-muted">No matter the project, our team can handle it.&nbsp;</p>
+</div>
+
+<div class="col mb-4">
+    <div class="card bg-info-light">
+        <div class="card-body text-center px-4 py-5 px-md-5">
+            <h3 class="fw-bold text-info card-text mb-2">CLUB SPEAK ENGLISH</h3>
+            <h5 class="card-title mb-3">
+                Bergabunglah dengan Club Speak English kami yang dirancang khusus untuk siswa sekolah dasar.
+                Siswa akan terlibat dalam kegiatan berbicara, mendengarkan, dan bermain dalam bahasa Inggris,
+                menciptakan lingkungan yang mendukung pembelajaran bahasa Inggris secara alami.
+                Manfaat: meningkatkan kemampuan berbicara, pemahaman bahasa, dan kepercayaan diri dalam berkomunikasi.
+            </h5>
         </div>
-      </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 d-sm-flex justify-content-sm-center">
-        <div class="col mb-4">
-          <div class="d-flex flex-column align-items-center align-items-sm-start">
-            <p class="bg-dark border rounded border-dark p-4">Nisi sit justo faucibus nec ornare amet, tortor torquent.
-              Blandit class dapibus, aliquet morbi.</p>
-            <div class="d-flex">
-              <img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
-                src="assets/img/team/avatar2.jpg" />
-              <div>
-                <p class="fw-bold text-primary mb-0">John Smith</p>
-                <p class="text-muted mb-0">Erat netus</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="d-flex flex-column align-items-center align-items-sm-start">
-            <p class="bg-dark border rounded border-dark p-4">Nisi sit justo faucibus nec ornare amet, tortor torquent.
-              Blandit class dapibus, aliquet morbi.</p>
-            <div class="d-flex">
-              <img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
-                src="assets/img/team/avatar4.jpg" />
-              <div>
-                <p class="fw-bold text-primary mb-0">John Smith</p>
-                <p class="text-muted mb-0">Erat netus</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="d-flex flex-column align-items-center align-items-sm-start">
-            <p class="bg-dark border rounded border-dark p-4">Nisi sit justo faucibus nec ornare amet, tortor torquent.
-              Blandit class dapibus, aliquet morbi.</p>
-            <div class="d-flex">
-              <img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
-                src="assets/img/team/avatar5.jpg" />
-              <div>
-                <p class="fw-bold text-primary mb-0">John Smith</p>
-                <p class="text-muted mb-0">Erat netus</p>
-              </div>
-            </div>
-          </div>
+    </div>
+</div>
+
         </div>
       </div>
     </div>
@@ -302,14 +236,14 @@
                 <path
                   d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z">
                 </path>
-              </svg></span><span>WeekingCare</span>
+              </svg></span><span>SDN 1 Sembung</span>
           </div>
           <p class="text-muted">Sem eleifend donec molestie, integer quisque orci aliquam.</p>
         </div>
       </div>
       <hr />
       <div class="text-muted d-flex justify-content-between align-items-center pt-3">
-        <p class="mb-0">Copyright © 2023 WeekingCare</p>
+        <p class="mb-0">Copyright © 2023 SDN 1 Sembung</p>
         <ul class="list-inline mb-0">
           <li class="list-inline-item">
             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16"

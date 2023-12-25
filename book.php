@@ -21,9 +21,10 @@
 					class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navcol-1">
 				<ul class="navbar-nav mx-auto">
-					<li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
-					<li class="nav-item"><a class="nav-link" href="pricing.php">Kegiatan</a></li>
-					<li class="nav-item"><a class="nav-link active" href="contacts.php">Pendaftaran</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.php">Profil</a></li>
+          <li class="nav-item"><a class="nav-link" href="kegiatan.php">Kegiatan</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacts.php">Pendaftaran</a></li>
 				</ul>
 				<a class="btn btn-primary shadow" role="button" href="">Help</a>
 			</div>
@@ -91,14 +92,14 @@
 								<path
 									d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z">
 								</path>
-							</svg></span><span>WeekingCare</span>
+							</svg></span><span>SDN 1 Sembung</span>
 					</div>
 					<p class="text-muted">Sem eleifend donec molestie, integer quisque orci aliquam.</p>
 				</div>
 			</div>
 			<hr />
 			<div class="text-muted d-flex justify-content-between align-items-center pt-3">
-				<p class="mb-0">Copyright © 2023 WeekingCare</p>
+				<p class="mb-0">Copyright © 2023 SDN 1 Sembung</p>
 				<ul class="list-inline mb-0">
 					<li class="list-inline-item">
 						<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
