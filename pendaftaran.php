@@ -21,41 +21,109 @@
 					class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navcol-1">
 				<ul class="navbar-nav mx-auto">
-				<li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
-          <li class="nav-item"><a class="nav-link" href="profile.php">Profil</a></li>
-          <li class="nav-item"><a class="nav-link" href="kegiatan.php">Kegiatan</a></li>
-          <li class="nav-item"><a class="nav-link active" href="contacts.php">Pendaftaran</a></li>
+					<li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
+					<li class="nav-item"><a class="nav-link" href="profile.php">Profil</a></li>
+					<li class="nav-item"><a class="nav-link" href="kegiatan.php">Kegiatan</a></li>
+					<li class="nav-item"><a class="nav-link active" href="contacts.php">Pendaftaran</a></li>
 				</ul>
 				<a class="btn btn-primary shadow" role="button" href="">Help</a>
 			</div>
 		</div>
 	</nav>
-	<section class="py-5">
+	<section>
 		<div class="container py-5">
 			<div class="row mb-5">
 				<div class="col-md-8 col-xl-6 text-center mx-auto">
-					<p class="fw-bold text-success mb-2">Contacts</p>
-					<h2 class="fw-bold">How you can reach us</h2>
+					<p class="fw-bold text-success mb-2">Pendaftaran</p>
+					<h2 class="fw-bold">SDN 1 SEMBUNG</h2>
 				</div>
 			</div>
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-6 col-xl-8">
-					<div>
-						<form class="p-3 p-xl-4" method="post" action="book-action.php">
-							<div class="mb-3"><input class="form-control" type="text" id="name-1" name="name"
-									placeholder="Name" /></div>
-							<div class="mb-3"><input class="form-control" type="email" id="email-1" name="email"
-									placeholder="Email" /></div>
-							<div class="mb-3"><input class="form-control" type="text" id="email-1" name="alamat"
-									placeholder="Alamat" /></div>
-							<div class="mb-3"><input class="form-control" type="text" id="email-1" name="umur"
-									placeholder="Umur" /></div>
-							<div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6"
-									placeholder="Alasan memilih paket"></textarea></div>
-							<div><button class="btn btn-primary shadow d-block w-100" name="submit">Booking
-									Sekarang</button></div>
-						</form>
-					</div>
+					<form class="p-3 p-xl-4" method="post" action="book-action.php">
+						<div class="mb-3">
+							<label for="nama" class="form-label">Nama</label>
+							<input class="form-control" type="text" id="nama" name="nama" placeholder="Nama" />
+						</div>
+						<div class="mb-3">
+							<label for="jenisKelamin" class="form-label">Jenis Kelamin</label>
+							<input class="form-control" type="text" id="jenisKelamin" name="jenisKelamin"
+								placeholder="Jenis Kelamin" />
+						</div>
+						<div class="mb-3">
+							<label for="umur" class="form-label">Umur</label>
+							<input class="form-control" type="text" id="umur" name="umur" placeholder="Umur" />
+						</div>
+						<div class="mb-3">
+							<label for="tempatLahir" class="form-label">Tempat Lahir</label>
+							<input class="form-control" type="text" id="tempatLahir" name="tempatLahir"
+								placeholder="Tempat Lahir" />
+						</div>
+						<div class="mb-3">
+							<label for="ttl" class="form-label">Tanggal Lahir</label>
+							<input class="form-control" type="date" id="ttl" name="ttl" placeholder="Tanggal Lahir" />
+						</div>
+						<div class="mb-3">
+							<label for="asalSekolah" class="form-label">Asal Sekolah</label>
+							<input class="form-control" type="text" id="asalSekolah" name="asalSekolah"
+								placeholder="Asal Sekolah" />
+						</div>
+						<div class="mb-3">
+							<label for="wargaNegara" class="form-label">Kewarganegaraan</label>
+							<input class="form-control" type="text" id="wargaNegara" name="wargaNegara"
+								placeholder="Kewarganegaraan" />
+						</div>
+						<div class="mb-3">
+							<label for="alamat" class="form-label">Alamat</label>
+							<input class="form-control" type="text" id="alamat" name="alamat" placeholder="Alamat" />
+						</div>
+						<div class="mb-3">
+							<label for="tinggalBersama" class="form-label">Tinggal Bersama</label>
+							<input class="form-control" type="text" id="tinggalBersama" name="tinggalBersama"
+								placeholder="Tinggal Bersama" />
+						</div>
+						<div class="mb-3">
+							<label for="namaAyah" class="form-label">Nama Ayah</label>
+							<input class="form-control" type="text" id="namaAyah" name="namaAyah"
+								placeholder="Nama Ayah" />
+						</div>
+						<div class="mb-3">
+							<label for="pekerjaanAyah" class="form-label">Pekerjaan Ayah</label>
+							<input class="form-control" type="text" id="pekerjaanAyah" name="pekerjaanAyah"
+								placeholder="Pekerjaan Ayah" />
+						</div>
+						<div class="mb-3">
+							<label for="namaIbu" class="form-label">Nama Ibu</label>
+							<input class="form-control" type="text" id="namaIbu" name="namaIbu"
+								placeholder="Nama Ibu" />
+						</div>
+						<div class="mb-3">
+							<label for="pekerjaanIbu" class="form-label">Pekerjaan Ibu</label>
+							<input class="form-control" type="text" id="pekerjaanIbu" name="pekerjaanIbu"
+								placeholder="Pekerjaan Ibu" />
+						</div>
+						<div class="mb-3">
+							<label for="akte" class="form-label">Upload Akte</label>
+							<input class="form-control" type="file" id="akte" name="akte" />
+							<small id="akteHelp" class="form-text text-muted">Pilih file PDF, JPG, PNG, atau
+								JPEG</small>
+						</div>
+						<div class="mb-3">
+							<label for="filekk" class="form-label">Upload Kartu Keluarga</label>
+							<input class="form-control" type="file" id="filekk" name="filekk" />
+							<small id="kkHelp" class="form-text text-muted">Pilih file PDF, JPG, PNG, atau
+								JPEG</small>
+						</div>
+						<div class="mb-3">
+							<label for="skhu" class="form-label">Upload SKHU</label>
+							<input class="form-control" type="file" id="skhu" name="skhu" />
+							<small id="skhuHelp" class="form-text text-muted">Pilih file PDF, JPG, PNG, atau
+								JPEG</small>
+						</div>
+						<div>
+							<button class="btn btn-primary shadow d-block w-100" name="submit">Daftar Sekarang</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -75,8 +143,9 @@
 					<h3 class="fs-6 fw-bold">Menu</h3>
 					<ul class="list-unstyled">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Booking</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Profil</a></li>
+						<li><a href="#">Kegiatan</a></li>
+						<li><a href="#">Pendaftaran</a></li>
 					</ul>
 				</div>
 				<div
@@ -94,7 +163,7 @@
 								</path>
 							</svg></span><span>SDN 1 Sembung</span>
 					</div>
-					<p class="text-muted">Sem eleifend donec molestie, integer quisque orci aliquam.</p>
+					<p class="text-muted">MANJADDA WAJADA</p>
 				</div>
 			</div>
 			<hr />

@@ -20,7 +20,7 @@
           class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navcol-1">
         <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
           <li class="nav-item"><a class="nav-link" href="profile.php">Profil</a></li>
           <li class="nav-item"><a class="nav-link active" href="kegiatan.php">Kegiatan</a></li>
           <li class="nav-item"><a class="nav-link" href="contacts.php">Pendaftaran</a></li>
@@ -117,8 +117,9 @@
           <h3 class="fs-6 fw-bold">Menu</h3>
           <ul class="list-unstyled">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Kegiatan</a></li>
+            <li><a href="#">Pendaftaran</a></li>
           </ul>
         </div>
         <div

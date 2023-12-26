@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <title>Home - SDN 1 Sembung</title>
+  <title>Profil - SDN 1 Sembung</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap" />
@@ -31,34 +31,40 @@
   </nav>
   <header class="bg-dark">
     <br><br>
-  <div class="container mt-3">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="text-center">
-                            <img src="assets/img/Galeri/H.SALIHIN.png" class="img-fluid" alt="Kepala Sekolah">
-                        </div>
-                        <div class="text-center mt-3">
-                            <h5 class="card-title">H. SALIHIN, S.Pd.SD</h5>
-                            <p class="card-text">KEPALA SEKOLAH</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center">
+                <img src="assets/img/Galeri/H.SALIHIN.png" class="img-fluid" alt="Kepala Sekolah">
+              </div>
+              <div class="text-center mt-3">
+                <h5 class="card-title">H. SALIHIN, S.Pd.SD</h5>
+                <p class="card-text">KEPALA SEKOLAH</p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="row mt-4">
-            <div class="col-lg-8 mx-auto">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">SAMBUTAN</h1>
-                        <p class="card-text">Selamat datang di Sekolah Kami! Kami bangga menyajikan pendidikan yang berkualitas tinggi dan mengedepankan nilai-nilai keunggulan serta kecerdasan. Kami percaya bahwa setiap siswa memiliki potensi yang luar biasa dan kami berdedikasi untuk membantu mereka mencapai potensi tersebut. Kami juga menyediakan berbagai program ekstrakurikuler dan peluang untuk berpartisipasi dalam aktivitas yang menantang dan menyenangkan. Kami senang melihat siswa kami tumbuh dan berkembang menjadi individu yang sukses dan berkontribusi positif bagi masyarakat. Terima kasih atas perhatian Anda dan kami berharap dapat bekerja sama dengan Anda dalam mewujudkan masa depan yang cerah bagi anak-anak kita.</p>
-                    </div>
-                </div>
+      <div class="row mt-4">
+        <div class="col-lg-8 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <h1 class="card-title">SAMBUTAN</h1>
+              <p class="card-text">Selamat datang di Sekolah Kami! Kami bangga menyajikan pendidikan yang berkualitas
+                tinggi dan mengedepankan nilai-nilai keunggulan serta kecerdasan. Kami percaya bahwa setiap siswa
+                memiliki potensi yang luar biasa dan kami berdedikasi untuk membantu mereka mencapai potensi tersebut.
+                Kami juga menyediakan berbagai program ekstrakurikuler dan peluang untuk berpartisipasi dalam aktivitas
+                yang menantang dan menyenangkan. Kami senang melihat siswa kami tumbuh dan berkembang menjadi individu
+                yang sukses dan berkontribusi positif bagi masyarakat. Terima kasih atas perhatian Anda dan kami
+                berharap dapat bekerja sama dengan Anda dalam mewujudkan masa depan yang cerah bagi anak-anak kita.</p>
             </div>
+          </div>
         </div>
-        <br><br><br>
+      </div>
+      <br><br><br>
     </div>
   </header>
   <section class="py-5">
@@ -80,7 +86,7 @@
       <div class="py-5 p-lg-5">
         <div class="row align-items-center">
           <h3 style="text-align: center">
-          Mewujudkan seklah yang "Sehat Religius Berbudaya Cerdas Mandiri dan Amanah (SERIBU CANDA)"
+            Mewujudkan seklah yang "Sehat Religius Berbudaya Cerdas Mandiri dan Amanah (SERIBU CANDA)"
           </h3>
         </div>
       </div>
@@ -99,21 +105,42 @@
           <ul>
             <li>Membuat Standar Operasional Prosedur (SOP), tentang penerapan protokol kesehatan di sekolah.</li>
           </ul>
-          <ul><li>Menyediakan sarana dan prasarana, menerapkan protokol kesehatan dilingkungan sekolah.</li></ul>
-          <ul><li>Mengembangkan/memelihara kesehatan diri dan lingkungan sekolah yang bersih, indah, rapi, aman dan harmonis guna mewujudakan masyarakat yang sehat jasmani dan rohani.</li></ul>
-          <ul><li>Menjalin hubungan dengan masyrakat (Tokoh Agama, Taman Pendidika Al- Qur'an, Tokoh Adat, Tokoh Masyarakat, dan Tokoh Pemuda) untuk mewujudakan masyarakat yang religius dan berbudaya.</li></ul>
-          <ul><li>Melaksanakan pendidikan yang berorientasi pada budaya dan karakter Bangsa Indonesia.</li></ul>
-          <ul><li>Menyediakan pasilitas/alat bantu pembelajaran yang mendukung sistem blended learning dan program kegiatan sekolah lainnnya.</li></ul>
-          <ul><li>Melaksanakan pembinaan/bimbingan terhadap siswa secara berkala dan kontinyu baik di bidang akademik maupun non akademik secara profesional.</li></ul>
-          <ul><li>Melaksanakan dan mengembangkan kegiatan literasi sekolah. </li></ul>
-          <ul><li>Mengembangkan sekolah aman, yaitu aman dari bullying, kekerasan, tawuran, makanan/minuman/obat-obatan terlarang. </li></ul>
+          <ul>
+            <li>Menyediakan sarana dan prasarana, menerapkan protokol kesehatan dilingkungan sekolah.</li>
+          </ul>
+          <ul>
+            <li>Mengembangkan/memelihara kesehatan diri dan lingkungan sekolah yang bersih, indah, rapi, aman dan
+              harmonis guna mewujudakan masyarakat yang sehat jasmani dan rohani.</li>
+          </ul>
+          <ul>
+            <li>Menjalin hubungan dengan masyrakat (Tokoh Agama, Taman Pendidika Al- Qur'an, Tokoh Adat, Tokoh
+              Masyarakat, dan Tokoh Pemuda) untuk mewujudakan masyarakat yang religius dan berbudaya.</li>
+          </ul>
+          <ul>
+            <li>Melaksanakan pendidikan yang berorientasi pada budaya dan karakter Bangsa Indonesia.</li>
+          </ul>
+          <ul>
+            <li>Menyediakan pasilitas/alat bantu pembelajaran yang mendukung sistem blended learning dan program
+              kegiatan sekolah lainnnya.</li>
+          </ul>
+          <ul>
+            <li>Melaksanakan pembinaan/bimbingan terhadap siswa secara berkala dan kontinyu baik di bidang akademik
+              maupun non akademik secara profesional.</li>
+          </ul>
+          <ul>
+            <li>Melaksanakan dan mengembangkan kegiatan literasi sekolah. </li>
+          </ul>
+          <ul>
+            <li>Mengembangkan sekolah aman, yaitu aman dari bullying, kekerasan, tawuran, makanan/minuman/obat-obatan
+              terlarang. </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
   <br />
-  
-  
+
+
   <footer class="bg-dark">
     <div class="container py-4 py-lg-5">
       <div class="row justify-content-center">
@@ -128,8 +155,9 @@
           <h3 class="fs-6 fw-bold">Menu</h3>
           <ul class="list-unstyled">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Kegiatan</a></li>
+            <li><a href="#">Pendaftaran</a></li>
           </ul>
         </div>
         <div

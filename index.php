@@ -20,7 +20,7 @@
           class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navcol-1">
         <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link active" href="index.php">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.php">Beranda</a></li>
           <li class="nav-item"><a class="nav-link" href="profile.php">Profil</a></li>
           <li class="nav-item"><a class="nav-link" href="kegiatan.php">Kegiatan</a></li>
           <li class="nav-item"><a class="nav-link" href="contacts.php">Pendaftaran</a></li>
@@ -35,7 +35,7 @@
         <div class="col-md-8 col-xl-6 text-center text-md-start mx-auto">
           <div class="text-center">
             <p class="fw-bold text-success mb-2">Welcome to</p>
-            <h1 class="fw-bold">SDN 1 Sembung</h1>
+            <h1 class="fw-bold">SDN 1 SEMBUNG</h1>
           </div>
         </div>
         <div class="col-12 col-lg-10 mx-auto">
@@ -102,6 +102,7 @@
           <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
           <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
           <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
         </div>
 
         <!-- The slideshow/carousel -->
@@ -150,56 +151,56 @@
     <div class="container py-5">
       <div class="mx-auto" style="max-width: 900px">
         <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center">
-        <div class="col mb-4">
-                <div class="card bg-success-light">
-                    <div class="card-body text-center px-4 py-5 px-md-5">
-                        <h3 class="fw-bold text-success card-text mb-2">EKSTRAKURIKULER KESENIAN</h3>
-                        <h5 class="card-title mb-3">
-                            Program ekstrakurikuler seni untuk melatih bakat dan kreativitas siswa. Kami menyediakan
-                            berbagai kegiatan seperti musik, tari, seni lukis, dan teater. Manfaat: mengembangkan
-                            keterampilan seni, meningkatkan kreativitas, dan memperluas pandangan seni siswa.
-                        </h5>
-                    </div>
-                </div>
+          <div class="col mb-4">
+            <div class="card bg-success-light">
+              <div class="card-body text-center px-4 py-5 px-md-5">
+                <h3 class="fw-bold text-success card-text mb-2">EKSTRAKURIKULER KESENIAN</h3>
+                <h5 class="card-title mb-3">
+                  Program ekstrakurikuler seni untuk melatih bakat dan kreativitas siswa. Kami menyediakan
+                  berbagai kegiatan seperti musik, tari, seni lukis, dan teater. Manfaat: mengembangkan
+                  keterampilan seni, meningkatkan kreativitas, dan memperluas pandangan seni siswa.
+                </h5>
+              </div>
             </div>
-            <div class="col mb-4">
-                <div class="card bg-warning-light">
-                    <div class="card-body text-center px-4 py-5 px-md-5">
-                        <h3 class="fw-bold text-warning card-text mb-2">KLUB OLAHRAGA</h3>
-                        <h5 class="card-title mb-3">
-                            Bergabunglah dengan klub olahraga kami yang menyediakan berbagai pilihan, termasuk sepak
-                            bola, basket, bulu tangkis, dan lainnya. Manfaat: meningkatkan kesehatan fisik, teamwork,
-                            dan semangat sportivitas.
-                        </h5>
-                    </div>
-                </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card bg-warning-light">
+              <div class="card-body text-center px-4 py-5 px-md-5">
+                <h3 class="fw-bold text-warning card-text mb-2">KLUB OLAHRAGA</h3>
+                <h5 class="card-title mb-3">
+                  Bergabunglah dengan klub olahraga kami yang menyediakan berbagai pilihan, termasuk sepak
+                  bola, basket, bulu tangkis, dan lainnya. Manfaat: meningkatkan kesehatan fisik, teamwork,
+                  dan semangat sportivitas.
+                </h5>
+              </div>
             </div>
-            <div class="col mb-4">
-    <div class="card bg-warning-light">
-        <div class="card-body text-center px-4 py-5 px-md-5">
-            <h3 class="fw-bold text-warning card-text mb-2">KELAS KREATIF</h3>
-            <h5 class="card-title mb-3">
-                Kelas kreatif untuk mengembangkan kreativitas siswa melalui berbagai kegiatan seni dan kerajinan.
-                Siswa akan belajar melukis, membuat kerajinan tangan, dan mengembangkan keterampilan seni mereka.
-                Manfaat: meningkatkan imajinasi dan keterampilan seni kreatif.
-            </h5>
-        </div>
-    </div>
-</div>
+          </div>
+          <div class="col mb-4">
+            <div class="card bg-warning-light">
+              <div class="card-body text-center px-4 py-5 px-md-5">
+                <h3 class="fw-bold text-warning card-text mb-2">KELAS KREATIF</h3>
+                <h5 class="card-title mb-3">
+                  Kelas kreatif untuk mengembangkan kreativitas siswa melalui berbagai kegiatan seni dan kerajinan.
+                  Siswa akan belajar melukis, membuat kerajinan tangan, dan mengembangkan keterampilan seni mereka.
+                  Manfaat: meningkatkan imajinasi dan keterampilan seni kreatif.
+                </h5>
+              </div>
+            </div>
+          </div>
 
-<div class="col mb-4">
-    <div class="card bg-info-light">
-        <div class="card-body text-center px-4 py-5 px-md-5">
-            <h3 class="fw-bold text-info card-text mb-2">CLUB SPEAK ENGLISH</h3>
-            <h5 class="card-title mb-3">
-                Bergabunglah dengan Club Speak English kami yang dirancang khusus untuk siswa sekolah dasar.
-                Siswa akan terlibat dalam kegiatan berbicara, mendengarkan, dan bermain dalam bahasa Inggris,
-                menciptakan lingkungan yang mendukung pembelajaran bahasa Inggris secara alami.
-                Manfaat: meningkatkan kemampuan berbicara, pemahaman bahasa, dan kepercayaan diri dalam berkomunikasi.
-            </h5>
-        </div>
-    </div>
-</div>
+          <div class="col mb-4">
+            <div class="card bg-info-light">
+              <div class="card-body text-center px-4 py-5 px-md-5">
+                <h3 class="fw-bold text-info card-text mb-2">CLUB SPEAK ENGLISH</h3>
+                <h5 class="card-title mb-3">
+                  Bergabunglah dengan Club Speak English kami yang dirancang khusus untuk siswa sekolah dasar.
+                  Siswa akan terlibat dalam kegiatan berbicara, mendengarkan, dan bermain dalam bahasa Inggris,
+                  menciptakan lingkungan yang mendukung pembelajaran bahasa Inggris secara alami.
+                  Manfaat: meningkatkan kemampuan berbicara, pemahaman bahasa, dan kepercayaan diri dalam berkomunikasi.
+                </h5>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -219,8 +220,9 @@
           <h3 class="fs-6 fw-bold">Menu</h3>
           <ul class="list-unstyled">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Kegiatan</a></li>
+            <li><a href="#">Pendaftaran</a></li>
           </ul>
         </div>
         <div
