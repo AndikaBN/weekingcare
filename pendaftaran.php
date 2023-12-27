@@ -1,3 +1,24 @@
+<?php
+require 'function.php';
+
+if (isset($_POST["submit"])) {
+	if (tambahSiswa($_POST) > 0) {
+		echo "
+        <script>
+            alert('pendaftaran berhasil, silahkan segera ke sekolah');
+			window.location.href = 'pendaftaran.php';
+        </script>
+        ";
+	} else {
+		echo "
+        <script>
+            alert('pendaftaran gagal');
+        </script>
+        ";
+	}
+}
+?>
+
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
 
@@ -74,6 +95,11 @@
 								placeholder="Kewarganegaraan" />
 						</div>
 						<div class="mb-3">
+							<label for="kelas" class="form-label">Kelas</label>
+							<input class="form-control" type="text" id="kelas" name="kelas"
+								placeholder="Contoh : kelas 1" />
+						</div>
+						<div class="mb-3">
 							<label for="alamat" class="form-label">Alamat</label>
 							<input class="form-control" type="text" id="alamat" name="alamat" placeholder="Alamat" />
 						</div>
@@ -105,19 +131,19 @@
 						<div class="mb-3">
 							<label for="akte" class="form-label">Upload Akte</label>
 							<input class="form-control" type="file" id="akte" name="akte" />
-							<small id="akteHelp" class="form-text text-muted">Pilih file PDF, JPG, PNG, atau
+							<small id="akteHelp" class="form-text text-muted">Pilih file JPG, PNG, atau
 								JPEG</small>
 						</div>
 						<div class="mb-3">
 							<label for="filekk" class="form-label">Upload Kartu Keluarga</label>
 							<input class="form-control" type="file" id="filekk" name="filekk" />
-							<small id="kkHelp" class="form-text text-muted">Pilih file PDF, JPG, PNG, atau
+							<small id="kkHelp" class="form-text text-muted">Pilih file JPG, PNG, atau
 								JPEG</small>
 						</div>
 						<div class="mb-3">
 							<label for="skhu" class="form-label">Upload SKHU</label>
 							<input class="form-control" type="file" id="skhu" name="skhu" />
-							<small id="skhuHelp" class="form-text text-muted">Pilih file PDF, JPG, PNG, atau
+							<small id="skhuHelp" class="form-text text-muted">Pilih file JPG, PNG, atau
 								JPEG</small>
 						</div>
 						<div>
