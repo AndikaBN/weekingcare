@@ -1,3 +1,8 @@
+<?php  
+require '../function.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,10 +62,11 @@
                 <nav class="sb-sidenav-menu-nested nav">
                   <a class="nav-link" href="kepalaSekolah.php">Kepala Sekolah</a>
                   <a class="nav-link" href="guru.php">Guru</a>
+                  <a class="nav-link" href="kegiatan.php">Kegiatan</a>
                 </nav>
               </div>
               <div class="sb-sidenav-menu-heading">Peserta Didik</div>
-              <a class="nav-link" href="charts.php">
+              <a class="nav-link" href="siswa.php">
                 <div class="sb-nav-link-icon"><i class="fas fa-smile"></i></div>
                 Siswa
               </a>
@@ -88,7 +94,6 @@
               <div class="card-body">
                 DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the
                 <a target="_blank" href="https://datatables.net/">official DataTables documentation</a>
-                .
               </div>
             </div>
             <div class="card mb-4">

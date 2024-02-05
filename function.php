@@ -35,13 +35,14 @@ function tambahSiswa($data)
     }
 
     $query = "INSERT INTO siswa 
-            (nama, jenis_kelamin, umur, tempat_lahir, tanggal_lahir, asal_sekolah, tanggal_lahir, 
-            asal_sekolah, kewarganegaraan, kelas, alamat, tinggal_bersama, nama_ayah, pekerjaan_ayah, 
-            nama_ibu, pekerjaan_ibu, file_akte, file_kk, file_skhu) VALUES 
-            ('$nama', '$jenisKelamin', '$umur', '$tempatLahir', '$tanggalLahir', '$asalSekolah', '$wargaNegara', 
-            '$kelas', '$alamat', '$tinggalBersama', '$namaAyah', '$pekerjaanAyah', '$namaIbu', '$pekerjaanIbu',
-            '$fileAkte', '$fileKK', '$fileSKHU')
-            ";
+    (nama, jenis_kelamin, umur, tempat_lahir, tanggal_lahir, asal_sekolah, kewarganegaraan, kelas, alamat, tinggal_bersama, nama_ayah, pekerjaan_ayah, 
+    nama_ibu, pekerjaan_ibu, file_akte, file_kk, file_skhu) VALUES 
+    ('$nama', '$jenisKelamin', '$umur', '$tempatLahir', '$tanggalLahir', '$asalSekolah', '$wargaNegara', 
+    '$kelas', '$alamat', '$tinggalBersama', '$namaAyah', '$pekerjaanAyah', '$namaIbu', '$pekerjaanIbu',
+    '$fileAkte', '$fileKK', '$fileSKHU')
+    ";
+
+
     mysqli_query($conn, $query);
 
     return mysqli_affected_rows($conn);

@@ -61,7 +61,7 @@ if (isset($_POST["submit"])) {
 			</div>
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-6 col-xl-8">
-					<form class="p-3 p-xl-4" method="post" action="book-action.php">
+					<form class="p-3 p-xl-4" method="post" action="" enctype="multipart/form-data">
 						<div class="mb-3">
 							<label for="nama" class="form-label">Nama</label>
 							<input class="form-control" type="text" id="nama" name="nama" placeholder="Nama" />
